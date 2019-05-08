@@ -261,7 +261,7 @@ void setup() {
 void loop() {
   // ArduinoOTA.handle();
   if ( (millis() % (20*1000L)) == 0) {
-    scanNetworks();
+    // scanNetworks();
     Serial.println("HELLO");
   }
 }
